@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Outfit';
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.btn {
+    padding:0 10px;
+    background-color: #edf6f9;
+    color: #292929;
+}
+/* NAVBAR-HOME */
+
+.navbar{
+    height: 110px;
+    border-radius: 0;
+}
+
+.bck-img-home {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../image/photos/309055565-1.jpg') center/cover no-repeat fixed;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+
+
+
+.description-home h5 {
+    font-size: 20px;
+    color: #f8c077;
+}
+
+.description-home h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.description-home p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.carousel-item-1 {
+    background: url('../image/photos/309055570.jpg')rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 500px;
+}
+
+.carousel-item-2 {
+    background: url('../image/photos/309055565-1.jpg')rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 500px;
+}
+
+.carousel-item-3 {
+    background: url('../image/photos/209140770.jpg')rgba(0, 0, 0, 0.3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 500px;
+}
+/* ABOUT-HTML */
+.abt-hotel hr {
+    height: 5px;
+    width: 40px;
+    color: #f8c076;
+    position: relative;
+    left: -60px;
+    top: 35px;
+}
+
+.abt-image-hotel img {
+    
+    border-radius: 5px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(222,222,245,1) 14%, rgba(255,255,255,1) 77%, rgba(0,212,255,1) 100%);
+}
+
+/* GALLERY-HTML */
+.carousel-item img {
+    height: 400px;
+}
+
+.bck-img-gallery {
+    background: url(../image/photos/flowers.jpg) center/ cover no-repeat;
+    height: 600px;
+}
+
+/* amenities */
+#amenities {
+    height: 400px;
+}
+
+/* testimonials-security */
+
+.cardss img {
+    margin:0 auto;
+}
+
+
+/*======GALLERY======*/
+
+
+/*==CARD GALLERY==*/
+.card-galery {
+    padding: 20px;
+    background-color:#edf6f9;
+    border-radius: 5px;
+    border: #edf6f9 3px solid;
+}
+
+
+.card-galery h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #f8c077;
+    font-weight: 700;
+}
+
+
+/* facilities */
+
+.facilities:hover {
+    cursor: pointer;
+}
+
+/* testimonials */
+.client-review {
+    border: 3px solid #edf6f9;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    background-color:#edf6f9;
+    border-radius: 5px;
+    border: #edf6f9 3px solid;
+}
+
+.client-review:hover {
+    border: #edf6f9 3px solid;
+    transform: scale(1.02);
+    transition: ease-in-out 0.5s;
+}
+
+.client-review p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.country-from img {
+    width: 40px;
+    height: 40px;
+}
+
+.country-from h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.counrty-from img , h2 {
+    margin-left: 10px;
+}
+
+#testimonials img {
+    width: 50px;
+}
+
+/* FOOTER */
+ 
+
+
+.icons img {
+    color: white;
+}
+
+
+/*=====FOOTER======*/
+#footer {
+    background-color: #292929;  
+}
+/* contact */
+
+.contact-info i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact-info a , span {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* copyright */
+.copyright  {
+    margin-top: 50px;
+    color: white;
+}
+
+.copyright h3 {
+    font-size: 23px;
+}
+
+/* navfooter */
+.footer-nav {
+    padding: 50px 0;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    line-height: 55px;
+}
+
+.footer-nav a:hover {
+    color: white;
+}
+/* location */
+
+.location {
+    padding: 50px 0px;
+}
+
+.powered {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+/*=====GALLERY======*/
+
+
+.about-hotel {
+    margin-top: 100px;
+    text-align: center;
+    color: white;line-height: 120px;
+}
+
+.about-hotel h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about-hotel h1 {
+    font-size: 85px;
+    font-size: 600;
+}
+
+.about-hotel p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* GALLERY */
+
+#gallery-one {
+    margin: 0;
+    padding: 120px 0 50px;
+    background-color: #e8e8ed;
+}
+.gallery-rows:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+
+#gallery-two {
+    margin: 0;
+    padding: 30px 0 50px;
+    background-color: #e8e8ed;
+}
+
+
+/*======CONTACT======*/
+.content-contact h3 {
+    font-size: 15px;
+}
+
+.content-contact h1 {
+    font-size: 80px;
+}
+
+.content-contact p {
+    font-size: 30px;
+}
+
+.testimonials .card-body:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+
+.icon  {
+    background-color: #d6dbdb;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.icon i {
+    margin-top: 11px;
+    margin-left: 12px;
+}
+
+
+.card-info {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.bck-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../image/photos/309055565-1.jpg') center/cover no-repeat;
+    height: 600px;
+}
+
+.navContact {
+   background: transparent;
+}
+
+
+/*=====ABOUT.CSS=====*/
+
+
+.bck-img-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../image/photos/flowers.jpg') center/cover no-repeat fixed;
+    height: 600px;
+}
+
+
+
+.int-fact  p:hover {
+    color: #006d77;
+}
+
+.int-fact span {
+    position: relative;
+    top: -15px;
+    font-size: 40px;
+    height: 40px;
+}
+
+
+/* amenities */
+#amenities {
+    height: 400px;
+}
+
+/* testimonials-security */
+
+
+/* testimonials */
+
+.card-testimonials {
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.card-testimonials:hover {
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(194,194,194,1);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(194,194,194,1);
+    box-shadow: 0px 0px 4px 1px rgba(194,194,194,1);
+    transition: 0.5s ease-in-out;
+}
+
+.card-testimonials img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+/*=====ROOMS=====*/
+.background-image-rooms {
+    background: url(../image/photos/rooms.rooms/superior-room.png) center/cover no-repeat fixed;
+    height: 600px;
+}
+.card-footer img {
+    margin: 0 20px;
+    height: 35px;
+}
+
+/* type-of-rooms */
+
+
+
+/* rooms.html */
+.card {
+    height: 250px;
+}
+
+
+/*=====FOOTER======*/
+#footer {
+    background-color: #292929;  
+}
+/* contact */
+.contact {
+    padding-top: 50px;
+}
+
+.contact-info i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.contact-info a , span {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* copyright */
+.copyright  {
+    margin-top: 50px;
+    color: white;
+}
+
+.copyright h3 {
+    font-size: 23px;
+}
+
+/* navfooter */
+.nav-footer {
+    padding: 50px 0px;
+    line-height: 50px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+.nav-footer a:hover {
+    color: white;
+}
+
+
+/* location */
+
+.location {
+    padding: 50px 0;
+}
+
+.powered {
+    margin-top: 35px;
+    margin-left: 150px;
+}
+
+/* button hover  */
+.btn-1 {
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid #f8c076;
+    background-color: #f8c076;
+    color: #292929!important;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+    background-color: #edf6f9;
+    color: #292929;
+    padding: 10px 25px;
+
+    border: 1px solid #edf6f9;
+    transition-duration: 0.4s;
+}
+
+
+
+/* Media Query */
+@media (max-width:1200px) {
+    .description-home-img {
+        position: relative;
+        bottom: -180px;
+        left: 50px;
+        width: 400px;
+    }
+
+    .description-home-img p {
+        font-size: 20px!important;
+    }
+
+    .card-galery {
+    border: #006d77 3px solid;
+    }
+
+    .location .map iframe {
+        width: 350px;
+    }
+
+    .powered {
+        margin-top: 35px;
+        margin-left: 110px;
+    }
+
+}
+
+@media (max-width:991px) {
+    /* index.html */
+    .about-home-dsc h5 {
+        font-size: 20px!important;
+    }
+    .about-home-dsc h1 {
+        font-size: 27px!important;
+    }
+    .about-home-dsc p {
+        font-size: 17px!important;
+    }
+    .rooms-dsc p {
+        font-size: 17px!important;
+    }
+
+    .description-home p {
+        font-size: 17px!important;
+    }
+
+    .facilities p {
+        font-size: 17px!important;
+    }
+
+    .contact h1 {
+        font-size: 25px!important;
+    }
+
+    .contact-info a,span {
+        font-size: 18px!important;
+    }
+
+    .footer-nav a {
+        font-size: 20px!important;
+    }
+
+    .footer-nav h1 {
+        font-size: 25px!important;
+    }
+
+    .location h1 {
+        font-size: 25px!important;
+    }
+
+    /* about.html */
+    .abt-hotel h3 {
+        font-size: 17px!important;
+    }
+
+    .abt-hotel h1 {
+        font-size: 30px!important;
+    }
+
+    .abt-hotel p {
+        font-size: 15px!important;
+    }
+
+    .int-fact h4 {
+        font-size: 30px!important;
+    }
+    .int-fact p {
+        font-size: 17px!important;
+    }
+    .testimonials .card-text {
+        font-size: 15px!important;
+    }
+    .second-testimonials .card-text {
+        font-size: 15px!important;
+    }
+
+    /* rooms.html */
+    #rooms-rooms .card-title {
+        font-size: 18px!important;
+    }
+    #rooms-rooms .card-text {
+        font-size: 15px!important;
+    }
+    #rooms-rooms .card-footer img {
+        height: 20px;
+    }
+
+    .rooms-rooms-2 .card-title {
+        font-size: 18px!important;
+    }
+
+    .rooms-rooms-2 .card-text {
+        font-size: 15px!important;
+    }
+
+    .rooms-rooms-2 .card-footer img {
+        height: 20px!important;
+    }
+    
+    .rooms-rooms-3 .card-title {
+        font-size: 18px!important;
+    }
+
+    .rooms-rooms-3 .card-text {
+        font-size: 15px!important;
+    }
+
+    .rooms-rooms-3 .card-footer img {
+        height: 20px!important;
+    }
+    /* contact.html */
+    .sent-msg h2{
+        font-size: 30px!important;
+    }
+    .sent-msg p {
+        font-size: 15px!important;
+    }
+
+    .card-contact .card-text {
+        font-size: 15px!important;
+    }
+
+}
+
+@media (max-width:800px) {
+
+}
+
+@media (max-width: 767px) {
+    .about-home-dsc {
+        margin-top: 50px!important;
+    }
+
+    .rooms-home {
+        padding: 15px;
+    }
+
+    .card-galery {
+        margin-top: 50px;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+    .abt-hotel {
+        padding: 15px;
+    }
+
+    .rooms-options button {
+        width: 130px;
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+
+    .card-testimonials {
+        height: 300px;
+        padding: 20px;
+    }
+
+    .int-fact h4 {
+        margin-bottom: 80px!important;
+    }
+
+    .bck-img h1 {
+        font-size: 50px!important;
+    }
+
+    .bck-img p {
+        font-size: 20px!important;
+    }
+
+   
+}
